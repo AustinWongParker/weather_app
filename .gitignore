@@ -51,3 +51,4 @@ docs/_build/
 
 # awp added
 secret_dont_share/
+secret_dont_share.py
