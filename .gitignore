@@ -50,4 +50,4 @@ coverage.xml
 docs/_build/
 
 # awp added
-Github\weather_app\secret_dont_share.py
+secret_dont_share/
