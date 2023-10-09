@@ -25,6 +25,7 @@ async def sms_weather():
         weather = await client.get('Chicago')
 
         message_body = (
+            "From Austin :)"
             "The current date is: " + str(weather.current.date) + "\n" +
             "The current temperature is: " + str(weather.current.temperature) + "\n" +
             "The current 'feel' of the weather is " + str(weather.current.feels_like) + "\n" +
